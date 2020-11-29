@@ -12,8 +12,7 @@ namespace DataAnnotationsExample.Models
 
         [DataType(DataType.Text)]
         [Display(Name = "First Name:")]
-
-        public string FirstName { get; set; }
+         public string FirstName { get; set; }
 
         [DataType(DataType.Text)]
         [Display(Name = "Last Name:")]
